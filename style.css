@@ -1,0 +1,85 @@
+.div{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.button{
+    width: 100px;
+    height: auto;
+    transition: background-color 2s;
+    
+    
+   
+}
+
+.button:hover{
+    background-color: black;
+}
+
+.button:active{
+background-color: rgb(178, 124, 228);
+}
+
+@media only screen and (min-width: 480px) and (max-width: 1000px) {
+
+.div{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+}
+
+a:visited{
+    color: aqua;
+}
+
+li:nth-child(2n){
+    color: red;
+}
+
+li:first-child{
+    color: blueviolet;
+}
+
+div ~ p{
+    background-color: blue;
+}
+
+div > p{
+    background-color: aqua;
+}
+
+/* div + p{
+    background-color: brown;
+} */
+
+
+.hey{
+
+background-color: blueviolet;
+
+} 
+
+#grid{
+    display: grid;
+    grid-template-columns: 100px 50px 100px;
+    grid-template-rows: 50px 50px 50px ;
+    row-gap: 10px;
+    column-gap: 10px;
+    gap: 10px;
+    
+}
+
+#grid1{
+    grid-column: 1/4;
+}
+
+#grid3{
+    grid-column: 3/4;
+}
+
+#grid4{
+    grid-column: 1/4;
+}
